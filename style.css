@@ -1,0 +1,76 @@
+* {
+          min-height: 25000;
+          scroll-behavior: smooth;
+        }
+        
+        body {
+          font-family: "Poppins", sans-serif;
+          background-color: whitesmoke;
+        }
+        
+        .home {
+          background-color: grey;
+          text-align: center;
+          color: whitesmoke;
+          font-style: italic;
+          height: 1000px;
+        }
+        
+        .home img {
+          width: 250px;
+          border-radius: 10%;
+          outline: 3px white solid;
+        }
+        
+        .judul {
+          padding-top: 100px;
+          font-size: 80px;
+          color: white;
+          text-shadow: 3px 6px 5px black;
+          font-family: cursive;
+        }
+        
+        .sub-judul {
+          text-shadow: 2px 4px 3px black;
+          color: white;
+          font-size: 50px;
+          font-family: cursive;
+        }
+        
+        .about {
+            text-align: center;
+            font-family: cursive;
+            font-size: 40px;
+            margin-top: 10px;
+            padding-top: 150px;
+            background-color: grey;
+            height: 1000px;
+            color: #010101;
+        }
+        p {
+          font-family: cursive;
+          color: aliceblue;
+        }
+        
+        .sub {
+            text-shadow: 2px 4px 3px white;
+            font-family: cursive;
+            font-size: 80px;
+            color: yellow;
+        }
+        
+        .sosmed {
+          display: flex;
+          justify-content: center;
+          color: black;
+          margin-top: 30px;
+        
+        }
+        
+        .sosmed a img {
+          width: auto;
+          height: 50px;
+          margin-top: 2px;
+          margin: 10px;
+          border-radius: 40%;
+        }
